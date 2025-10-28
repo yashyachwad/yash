@@ -25,7 +25,7 @@ Welcome to my personal portfolio website! This website showcases my skills, proj
 
 1. Clone the repository:
 
-git clone [https://github.com/yashyachwad/yash.git]
+git clone https://github.com/yashyachwad/yash.git
 
 cd portfolio
 
