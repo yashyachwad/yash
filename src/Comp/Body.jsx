@@ -77,7 +77,7 @@ function navUp () {
         
         
         <div className='ml-[10%] sm:ml-[20%] mr-[10%] sm:mr-[20%] pt-5'>
-                  <span className='text-[15px]  sm:text-[25px] font-lobster hover:cursor-pointer hover:text-green-500 hover:animate-bounce duration-500 ease-in-out'  >yashyachwad</span>
+                  <span  className='text-[15px]  sm:text-[25px] font-lobster hover:cursor-pointer hover:text-green-500 hover:animate-bounce duration-500 ease-in-out'  >yashyachwad</span>
 
 
                   <div className='mt-10 flex justify-between items-center'>
@@ -120,16 +120,17 @@ function navUp () {
 
 
                               <div id="projects" className='flex flex-wrap justify-center gap-10 sm:gap-16  mt-16'>
-                                    <img className='rounded-md h-8 w-8 hover:scale-105 hover:cursor-pointer  bg-white border-2 border-black'   src={Github} alt="" />
-                                    <img className='rounded-md h-8 w-8 hover:scale-105 hover:cursor-pointer  bg-white '  src={X} alt="" />
-                                    <img className='rounded-md h-8 w-8 hover:scale-105 hover:cursor-pointer  bg-white'  src={Insta} alt="" />
-                                    <img className='rounded-md h-8 w-8 hover:scale-105 hover:cursor-pointer  bg-white' src={Resume} alt="" /> 
-                                   <img className='rounded-md h-8 w-9  hover:scale-105 hover:cursor-pointer bg-white'  src={Linkedin} alt="" />
+                                <a href="https://github.com/yashyachwad"target="_blank" >  <img className='rounded-md h-8 w-8 hover:scale-105 hover:cursor-pointer  bg-white border-2 border-black'   src={Github} alt="" /></a>
+                                <a href="https://www.instagram.com/yash_yachwad/" target='_balnk' > <img className='rounded-md h-8 w-8 hover:scale-105 hover:cursor-pointer  bg-white'  src={Insta} alt="" /></a>    
+                                <a href="/resumeYASH.pdf" target='_blank'> <img className='rounded-md h-8 w-8 hover:scale-105 hover:cursor-pointer  bg-white' src={Resume} alt="" /> </a>    
+                                <a href="https://www.linkedin.com/in/yashyachwad/" target='_blank'>  <img className='rounded-md h-8 w-9  hover:scale-105 hover:cursor-pointer bg-white'  src={Linkedin} alt="" /> </a>   
+                                <a href="https://x.com/yashyachwad" target='_blank'> <img className='rounded-md h-8 w-8 hover:scale-105 hover:cursor-pointer  bg-white '  src={X} alt="" /></a>
                               </div>
                  </div>
 
 
 
+<div className="w-full mt-5 mb-8 h-[2px] bg-gradient-to-r from-transparent via-slate-400 to-transparent" />
 
 
 
@@ -139,11 +140,14 @@ function navUp () {
                   <div className='flex justify-between pl-3  pb-3'>                   
                           <div>
                             <h2  className='text-[18px]  font-bold hover:cursor-pointer hover:text-green-500  '>reX </h2>
-                            <p className='text-[10px]'>Click to view details</p>
+                           
                           </div>
-                          <div className='flex gap-3'> 
-                            <img className= ' h-6 w-6  bg-white border-2 border-black hover:cursor-pointer hover:text-green-500 rounded-md' src={Github} alt="" />
-                            <img className= ' h-6 w-6  bg-white border-2 border-black hover:cursor-pointer hover:text-green-500  rounded-md' src={Link} alt="" />
+                          <div className='flex-row gap-3'>
+                            <div className='flex pl-6 sm:pl-0 gap-3 sm:gap-9'> 
+                                <a href="https://github.com/yashyachwad/reX" target='_blank'> <img className= ' h-6 w-6 hover:bg-green-400  bg-white border border-black hover:cursor-pointer hover:text-green-500 rounded-md' src={Github} alt="" /></a>
+                                <a href="https://rex-frontend.onrender.com/" target='_blank'>  <img className= ' h-6 w-6 hover:bg-green-400 bg-white border border-black hover:cursor-pointer hover:text-green-500  rounded-md' src={Link} alt="" /></a>
+                           </div> 
+                            <p className='text-[10px]'>Click to view details</p> 
                           </div>                  
                   </div>
 
@@ -165,12 +169,16 @@ function navUp () {
                   <div className='flex justify-between pl-3  pb-3'>                   
                           <div>
                             <h2 className='text-[18px]  font-bold hover:cursor-pointer hover:text-green-500  '>YaPra </h2>
-                            <p className='text-[10px]'>Click to view details</p>
+                            
                           </div>
-                          <div className='flex gap-3'> 
-                            <img className= ' h-6 w-6  bg-white border-2 border-black hover:cursor-pointer hover:text-green-500 rounded-md' src={Github} alt="" />
-                            <img className= ' h-6 w-6  bg-white border-2 border-black hover:cursor-pointer hover:text-green-500  rounded-md' src={Link} alt="" />
-                          </div>                  
+                          <div>
+                            <div className='flex pl-6 sm:pl-0 gap-3 sm:gap-9'> 
+                                <a href="https://github.com/yashyachwad/YaPra" target='_blank'><img className= ' h-6 w-6  bg-white border border-black hover:cursor-pointer hover:bg-green-500 rounded-md' src={Github} alt="" /></a>
+                                <a href="https://ya-pra.vercel.app/" target='_blank'><img className= ' h-6 w-6  bg-white border border-black hover:cursor-pointer hover:bg-green-500  rounded-md' src={Link} alt="" /></a>
+                              </div>                
+                              <p className='text-[10px]'>Click to view details</p>
+                          </div>
+                  
                   </div>
 
                   <p className=' pl-3 text-justify ' >Yapra is a Gemini inspired project built to replicate Google’s Gemini UI experience. It focuses on clean design, responsive layout, and interactive cards using React and Tailwind CSS. The project showcases modern frontend practices while helping me sharpen my UI/UX development skills.</p>
@@ -191,12 +199,16 @@ function navUp () {
                   <div className='flex justify-between pl-3  pb-3'>                   
                           <div>
                             <h2 className='text-[18px]  font-bold hover:cursor-pointer hover:text-green-500 '>YanDi</h2>
-                            <p className='text-[10px]'>Click to view details</p>
+                          
                           </div>
-                          <div className='flex gap-3'> 
-                            <img className= ' h-6 w-6  bg-white border-2 border-black hover:cursor-pointer hover:text-green-500 rounded-md' src={Github} alt="" />
-                            <img className= ' h-6 w-6  bg-white border-2 border-black hover:cursor-pointer hover:text-green-500  rounded-md' src={Link} alt="" />
-                          </div>                  
+                          <div>
+                            <div className='flex pl-6 sm:pl-0 gap-3 sm:gap-9'> 
+                             <a href="https://github.com/yashyachwad/yandi" target='_blank'> <img className= ' h-6 w-6  bg-white border border-black hover:cursor-pointer hover:bg-green-500 rounded-md' src={Github} alt="" /></a>
+                             <a href="https://yandi-gilt.vercel.app/" target='_blank'> <img className= ' h-6 w-6  bg-white border border-black hover:cursor-pointer hover:bg-green-500  rounded-md' src={Link} alt="" /></a>
+                            </div> 
+                             <p className='text-[10px]'>Click to view details</p> 
+                          </div>
+                 
                   </div>
 
                   <p className=' pl-3 text-justify ' >Yandi is an AI assistant project designed to mimic modern conversational AI tools. It provides a clean chat interface, smooth interactions, and a responsive design . The project reflects my skills in creating intuitive, user-friendly AI-driven interfaces.</p>
@@ -219,12 +231,16 @@ function navUp () {
                   <div className='flex justify-between pl-3  pb-3'>                   
                           <div>
                             <h2 className='text-[18px]  font-bold hover:cursor-pointer hover:text-green-500 '>DevPad</h2>
+                            
+                          </div>
+                          <div>
+                            <div className='flex pl-6 sm:pl-0 gap-3 sm:gap-9'> 
+                              <a href="https://github.com/yashyachwad/DevPad" target='_blank'><img className= ' h-6 w-6  bg-white border border-black hover:cursor-pointer hover:bg-green-500 rounded-md' src={Github} alt="" /></a>
+                              <a href="https://devpad-ashy.vercel.app/" target='_blank'><img className= ' h-6 w-6  bg-white border border-black hover:cursor-pointer hover:bg-green-500  rounded-md' src={Link} alt="" /></a>
+                            </div> 
                             <p className='text-[10px]'>Click to view details</p>
                           </div>
-                          <div className='flex gap-3'> 
-                            <img className= ' h-6 w-6  bg-white border-2 border-black hover:cursor-pointer hover:text-green-500 rounded-md' src={Github} alt="" />
-                            <img className= ' h-6 w-6  bg-white border-2 border-black hover:cursor-pointer hover:text-green-500  rounded-md' src={Link} alt="" />
-                          </div>                  
+                 
                   </div>
 
                   <p className=' pl-3 text-justify ' >DevPad is a developer-focused platform project designed to provide a clean and minimal interface for writing, organizing and experimenting on code snippets, it emphasizes productivity, responsive design, and a smooth user experience. This project reflects my interest in building practical tools for frontend developers.</p>
@@ -236,27 +252,28 @@ function navUp () {
                   </div>
           </div>
 
+<div className="w-full mt-5 mb-5 h-[2px] bg-gradient-to-r from-transparent via-slate-400 to-transparent" />
 
 
           <h1 className='font-bold text-[20px] mb-3 '>Technical Skills</h1>
                   <div className='grid grid-cols-9 grid-row-2 gap-2 pb-10'>
-                      <img className='h-8 w-8 p-1 rounded-md hover:animate-spin bg-orange-400 ' src={HTML} alt="" />
-                      <img className='h-8 w-8 p-1 rounded-md hover:animate-spin bg-blue-400 ' src={CSS} alt="" />
-                      <img className='h-8 w-8 p-1 rounded-md hover:animate-spin bg-yellow-400 ' src={JS} alt="" />
-                      <img className='h-8 w-8 p-1 rounded-md hover:animate-spin bg-black ' src={Re} alt="" />
-                      <img className='h-8 w-8 p-1 rounded-md hover:animate-spin bg-black ' src={Tailwind} alt="" />
-                      <img className='h-8 w-8 p-1 rounded-md hover:animate-spin bg-zinc-500 ' src={Express} alt="" />
-                      <img className='h-8 w-8 p-1 rounded-md hover:animate-spin bg-black ' src={Node} alt="" />
-                      <img className='h-8 w-8 p-1 rounded-md hover:animate-spin bg-black ' src={Mongo} alt="" />
-                      <img className='h-8 w-8 p-1 rounded-md hover:animate-spin bg-black ' src={Mysq} alt="" />
-                      <img className='h-8 w-8 p-1 rounded-md hover:animate-spin bg-black ' src={C} alt="" />
-                      <img className='h-8 w-8 p-1 rounded-md hover:animate-spin bg-black ' src={Cpp} alt="" />
-                      <img className='h-8 w-8 p-1 rounded-md hover:animate-spin bg-black ' src={Py} alt="" />
-                      <img className='h-8 w-8 p-1 rounded-md hover:animate-spin bg-black ' src={Aws} alt="" />
-                      <img className='h-8 w-8 p-1 rounded-md hover:animate-spin border-2 border-black bg-white' src={Vercel} alt="" />
-                      <img className='h-8 w-8 p-1 rounded-md hover:animate-spin border-2 border-black bg-white' src={Github} alt="" />
-                      <img className='h-8 w-8 p-1 rounded-md hover:animate-spin bg-black ' src={Vite} alt="" />
-                      <img className='h-8 w-8 p-1 rounded-md hover:animate-spin bg-black ' src={Vs} alt="" />
+                      <img className='h-8 w-8 p-1 rounded-md hover:cursor-pointer hover:animate-spin bg-orange-400 ' src={HTML} alt="" />
+                      <img className='h-8 w-8 p-1 rounded-md hover:cursor-pointer hover:animate-spin bg-blue-400 ' src={CSS} alt="" />
+                      <img className='h-8 w-8 p-1 rounded-md hover:cursor-pointer hover:animate-spin bg-yellow-400 ' src={JS} alt="" />
+                      <img className='h-8 w-8 p-1 rounded-md hover:cursor-pointer hover:animate-spin bg-black ' src={Re} alt="" />
+                      <img className='h-8 w-8 p-1 rounded-md hover:cursor-pointer hover:animate-spin bg-black ' src={Tailwind} alt="" />
+                      <img className='h-8 w-8 p-1 rounded-md hover:cursor-pointer hover:animate-spin bg-zinc-500 ' src={Express} alt="" />
+                      <img className='h-8 w-8 p-1 rounded-md hover:cursor-pointer hover:animate-spin bg-black ' src={Node} alt="" />
+                      <img className='h-8 w-8 p-1 rounded-md hover:cursor-pointer hover:animate-spin bg-black ' src={Mongo} alt="" />
+                      <img className='h-8 w-8 p-1 rounded-md hover:cursor-pointer hover:animate-spin bg-black ' src={Mysq} alt="" />
+                      <img className='h-8 w-8 p-1 rounded-md hover:cursor-pointer hover:animate-spin bg-black ' src={C} alt="" />
+                      <img className='h-8 w-8 p-1 rounded-md hover:cursor-pointer hover:animate-spin bg-black ' src={Cpp} alt="" />
+                      <img className='h-8 w-8 p-1 rounded-md hover:cursor-pointer hover:animate-spin bg-black ' src={Py} alt="" />
+                      <img className='h-8 w-8 p-1 rounded-md hover:cursor-pointer hover:animate-spin bg-black ' src={Aws} alt="" />
+                      <img className='h-8 w-8 p-1 rounded-md hover:cursor-pointer hover:animate-spin border-2 border-black bg-white' src={Vercel} alt="" />
+                      <img className='h-8 w-8 p-1 rounded-md hover:cursor-pointer hover:animate-spin border-2 border-black bg-white' src={Github} alt="" />
+                      <img className='h-8 w-8 p-1 rounded-md hover:cursor-pointer hover:animate-spin bg-black ' src={Vite} alt="" />
+                      <img className='h-8 w-8 p-1 rounded-md hover:cursor-pointer hover:animate-spin bg-black ' src={Vs} alt="" />
                   </div>
 
 
@@ -271,7 +288,7 @@ function navUp () {
         
         
         
-    <div onClick={navUp} className='h-8 w-8 border-2 border-gray-600 rounded-full fixed bottom-6 right-2  sm:right-6 bg-blue-200 hover:bg-blue-300 object-fit '>
+    <div onClick={navUp} className='h-8 w-8 border-2 border-gray-600 rounded-full fixed bottom-6 right-2  sm:right-6 bg-blue-200 hover:cursor-pointer hover:bg-blue-500 object-fit '>
       <img  src={Up} alt="" />
     </div>
         
