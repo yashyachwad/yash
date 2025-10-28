@@ -1,6 +1,6 @@
 import React from 'react'
 import yash  from '../assets/yash.jpg'
-import Flag from '../assets/flag.png'
+import Flag from '../assets/Flag.png'
 import Github from '../Bodyass/Github.svg'
 import Linkedin from '../Bodyass/Linkedin.svg'
 import X from '../Bodyass/X.svg'
